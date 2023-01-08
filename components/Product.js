@@ -1,6 +1,7 @@
 import { Box, Flex } from "@chakra-ui/react";
 import ButtonBlur from "./ButtonBlur";
 import formatPrice from "../lib/formatPrice";
+import { delay } from "framer-motion";
 
 export default function Product({ produto }) {
   return (
@@ -12,6 +13,11 @@ export default function Product({ produto }) {
       border="1px"
       borderColor={produto.colorb || "#5e7ebf"}
       h="300"
+      _hover={{
+        transform: "scale(1.1)",
+        transition: "0.2s",
+        boxShadow: "0px 50px 50px rgba(0,0,0,0.3)",
+      }}
     >
       <Box
         backdropFilter="auto"

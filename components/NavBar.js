@@ -8,7 +8,16 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <MyGrid bgColor="#111214" h="60px">
+    <MyGrid
+      fixed
+      bgColor="rgba(12, 15, 20, .5)"
+      mt="-65px"
+      h="60px"
+      zIndex="2"
+      backdropBlur="40px"
+      backdropFilter="auto"
+      boxShadow="0px 20px 20px rgba(12, 15, 20, .5)"
+    >
       <GridItem colStart={1} colSpan={1}>
         <Flex mt="12px">
           <Image src="/logo.svg" width="60" height="50" />

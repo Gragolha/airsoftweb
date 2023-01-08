@@ -19,7 +19,7 @@ export default function Mybutton({
       variant={variant}
       border={border}
       borderColor={borderColor}
-      _hover={{ bgColor: "#5e7ebf", color: "#242e42" }}
+      _hover={{ bgColor: "#5e7ebf", color: "#242e42", transform: "scale(1.1)" }}
     >
       {children}
     </Button>

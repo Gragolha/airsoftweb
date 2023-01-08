@@ -1,13 +1,30 @@
 import { Grid, GridItem, Center } from "@chakra-ui/react";
 import Mybutton from "./Button";
 
-export default function MyGrid({ children, bgColor, h, borderBottom }) {
+export default function MyGrid({
+  mt,
+  children,
+  bgColor,
+  h,
+  borderBottom,
+  fixed,
+  zIndex,
+  backdropFilter,
+  backdropBlur,
+  boxShadow,
+}) {
   return (
     <Center
+      boxShadow={boxShadow}
+      backdropFilter={backdropFilter}
+      backdropBlur={backdropBlur}
+      zIndex={zIndex}
+      position={fixed ? "fixed" : ""}
       width="100%"
       bgColor={bgColor || "#13171f"}
       h={h}
       borderBottom={borderBottom}
+      mt={mt}
     >
       <Grid templateColumns="repeat(12, 64px)" gap={4}>
         {children}

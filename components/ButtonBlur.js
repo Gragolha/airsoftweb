@@ -16,7 +16,7 @@ export default function ButtonBlur({ children, bgColor, color, mt, w }) {
         color={color}
         rounded={8}
         w="100%"
-        _hover={{ bgColor: "#5E7EBF" }}
+        _hover={{ bgColor: "#5E7EBF", transform: "scale(1.1)" }}
       >
         {children}
       </Button>

@@ -1,4 +1,4 @@
-import { Input } from "@chakra-ui/react";
+import { Input, Progress } from "@chakra-ui/react";
 
 export default function PlaceHolder({ placeholder }) {
   return (
@@ -6,12 +6,12 @@ export default function PlaceHolder({ placeholder }) {
       rounded={8}
       focusBorderColor="#5e7ebf"
       borderColor="gray.700"
-      bgColor="gray.900"
+      bgColor="rgba(12, 15, 20, 0.3)"
       color="white"
       placeholder={placeholder}
       size="xs"
       fontSize={12}
-      _hover={{ bgColor: "rgb()" }}
+      _hover={{}}
     />
   );
 }

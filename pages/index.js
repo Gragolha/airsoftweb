@@ -15,11 +15,23 @@ export default function Home() {
       colorb: "#943693",
     },
     { nome: "Stinger", preco: 700, imagem: "/stingerNn.png" },
+    { nome: "Stinger", preco: 700, imagem: "/stingerNn.png" },
+    { nome: "Stinger", preco: 700, imagem: "/stingerNn.png" },
+    { nome: "Stinger", preco: 700, imagem: "/stingerNn.png" },
+    { nome: "Stinger", preco: 700, imagem: "/stingerNn.png" },
+    { nome: "Stinger", preco: 700, imagem: "/stingerNn.png" },
+    { nome: "Stinger", preco: 700, imagem: "/stingerNn.png" },
+    { nome: "Stinger", preco: 700, imagem: "/stingerNn.png" },
+    { nome: "Stinger", preco: 700, imagem: "/stingerNn.png" },
+    { nome: "Stinger", preco: 700, imagem: "/stingerNn.png" },
+    { nome: "Stinger", preco: 700, imagem: "/stingerNn.png" },
+    { nome: "Stinger", preco: 700, imagem: "/stingerNn.png" },
+    { nome: "Stinger", preco: 700, imagem: "/stingerNn.png" },
   ];
   return (
     <>
       <Navbar />
-      <MyGrid>
+      <MyGrid mt={16}>
         <GridItem colStart={1} colSpan={12}>
           <ContentHeader />
         </GridItem>
