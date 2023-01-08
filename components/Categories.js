@@ -11,10 +11,8 @@ import {
   UnorderedList,
   ListItem,
 } from "@chakra-ui/react";
-import MyGrid from "./Grid";
-import MyLink from "./MyLink";
+
 import Link from "next/link";
-import Navbar from "./NavBar";
 
 export default function Categories() {
   return (

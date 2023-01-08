@@ -35,7 +35,7 @@ export default function Home() {
         <GridItem colStart={1} colSpan={12}>
           <ContentHeader />
         </GridItem>
-        <GridItem colStart={1} colSpan={3} rowSpan={2}>
+        <GridItem colStart={1} colSpan={3} rowSpan={8}>
           <Categories />
         </GridItem>
         {produtos.map((produto, index) => (
